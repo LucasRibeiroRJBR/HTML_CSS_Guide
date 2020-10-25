@@ -1,0 +1,9 @@
+@font-face {
+    font-family: nova;
+    src: url("../font/zh-cn.ttf");
+}
+
+* {
+    font-family: nova;
+    text-decoration: none;
+}

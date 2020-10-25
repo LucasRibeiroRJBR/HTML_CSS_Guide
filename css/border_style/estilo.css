@@ -1,0 +1,51 @@
+@font-face {
+    font-family: nova;
+    src: url("../../font/zh-cn.ttf");
+}
+
+* {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: nova;
+    font-weight: 900;
+    color: purple;
+    display: inline; /* Elementos na mesma linha */
+}
+
+div.esquerdo {
+    display: inline;
+}
+
+div.direito {
+    display: inline;
+}
+
+p {
+    font-family: nova;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p.arredondado {
+    border-style: solid;
+    border-radius: 30px;
+}
+
+p.colorido {
+    border-style: solid;
+    border-color: purple;
+}
