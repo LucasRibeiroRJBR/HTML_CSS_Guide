@@ -7,11 +7,18 @@
     text-decoration: none;
 }
 
+body {
+    background-image: linear-gradient(0deg, blue 0%, purple 80%);
+    height: 100%;
+}
+
 h1 {
     font-family: nova;
-    font-weight: 900;
-    color: purple;
-    display: inline; /* Elementos na mesma linha */
+    font-size: 40px;
+    /* Dar borda ao título */
+    -webkit-text-fill-color: yellow;
+    -webkit-text-stroke-width: thin;
+    -webkit-text-stroke-color: black;
 }
 
 div.esquerdo {
@@ -25,7 +32,6 @@ div.direito {
 p {
     font-family: nova;
     font-size: 18px;
-    font-weight: 900;
 }
 
 p.dotted {border-style: dotted;}

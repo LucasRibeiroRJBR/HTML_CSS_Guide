@@ -1,0 +1,34 @@
+@font-face {
+    font-family: nova;
+    src: url("../font/zh-cn.ttf");
+}
+
+* {
+    font-family: nova;
+    text-decoration: none;
+}
+
+/* Link não visitado */
+a:link {
+    color: yellow;
+  }
+
+/* Link visitado */
+a:visited {
+    color: orange;
+  }
+
+html {
+    background-image: linear-gradient(0deg, blue 0%, purple 80%);
+    height: 100%;
+}
+
+table, th, td {
+  color: yellow;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 3px;
+}
