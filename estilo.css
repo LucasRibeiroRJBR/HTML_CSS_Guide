@@ -4,9 +4,33 @@
 }
 
 * {
+    font-family: nova;
     text-decoration: none;
 }
 
-h2 {
-    font-family: nova;
+/* Link não visitado */
+a:link {
+    color: yellow;
+  }
+
+/* Link visitado */
+a:visited {
+    color: orange;
+  }
+
+body {
+    background-image: linear-gradient(140deg, blue 0%, purple 50%);
+}
+
+h2.html {
+    font-size: 40px;
+    overflow: hidden;
+    display: inline;
+    
+}
+
+h2.css {
+    font-size: 40px;
+    overflow: hidden;
+    display: inline;
 }
