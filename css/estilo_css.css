@@ -19,8 +19,8 @@ a:visited {
   }
 
 html {
-    background-image: linear-gradient(0deg, blue 0%, purple 80%);
-    height: 100%;
+  background: linear-gradient(to right, #243B55, #141E30);
+  height: 100%;
 }
 
 table, th, td {
