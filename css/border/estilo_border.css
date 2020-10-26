@@ -21,11 +21,11 @@ h1 {
     -webkit-text-stroke-color: black;
 }
 
-div.esquerdo {
+#esquerdo {
     display: inline;
 }
 
-div.direito {
+#direito {
     display: inline;
 }
 
