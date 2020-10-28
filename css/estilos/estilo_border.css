@@ -4,17 +4,20 @@
 }
 
 * {
+    font-family: nova;
     text-decoration: none;
+    color: #ECE5D8;
 }
 
 body {
-    background: linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #454D5C);
     font-family: nova;
     color: white;
     height: 100%;
 }
 
-h1 {
+a, h1 {
+    font-size: 38px;
     color: yellow;
 }
 
@@ -30,7 +33,7 @@ h1 {
 
 p {
     font-family: nova;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 p.dotted {border-style: dotted;}

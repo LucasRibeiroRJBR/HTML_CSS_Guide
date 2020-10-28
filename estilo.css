@@ -6,20 +6,15 @@
 * {
     font-family: nova;
     text-decoration: none;
+    color: #ECE5D8;
 }
 
-/* Link não visitado */
-a:link {
+a {
     color: yellow;
   }
 
-/* Link visitado */
-a:visited {
-    color: orange;
-  }
-
 html {
-    background: linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #454D5C);
     height: 100%;
 }
 
@@ -35,3 +30,5 @@ h2.css {
     overflow: hidden;
     display: inline;
 }
+
+

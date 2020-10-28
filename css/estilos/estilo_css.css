@@ -1,0 +1,24 @@
+@font-face {
+  font-family: nova;
+  src: url("../../font/zh-cn.ttf");
+}
+
+* {
+  font-family: nova;
+  text-decoration: none;
+  color: #ECE5D8;
+}
+
+a {
+  color: yellow;
+}
+
+html {
+  background: linear-gradient(to right, #243B55, #454D5C);
+  height: 100%;
+}
+
+table, tr, td, h1 {
+  font-family: nova;
+  color: yellow;
+}
