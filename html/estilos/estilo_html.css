@@ -1,0 +1,25 @@
+@font-face {
+    font-family: nova;
+    src: url("../../font/HYWenHei.ttf");
+  }
+  
+  * {
+    font-family: nova;
+    text-decoration: none;
+    color: #ECE5D8;
+  }
+  
+  a {
+    color: yellow;
+  }
+  
+  html {
+    background-color: rgb(40, 42, 54);
+    height: 100%;
+  }
+  
+  table, tr, td, h1 {
+    font-family: nova;
+    color: yellow;
+  }
+  

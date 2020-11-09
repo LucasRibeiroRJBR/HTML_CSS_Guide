@@ -1,6 +1,6 @@
 @font-face {
     font-family: nova;
-    src: url("../../font/zh-cn.ttf");
+    src: url("../../font/HYWenHei.ttf");
 }
 
 * {
@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #243B55, #454D5C);
+    background-color: rgb(40, 42, 54);
     font-family: nova;
     color: white;
     height: 100%;
